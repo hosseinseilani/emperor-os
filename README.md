@@ -1,5 +1,5 @@
 # Emperor-os
-[site link] (http://emperor-os.com/)
+[site link](http://emperor-os.com/)
 
 Established in 2020, by Hossein Seilany who has focused on developing an All in One operating system for programming, developing and data science. The aim was to provide, design, develop and customize Emperor-OS to be free and useful for normal and professional users. If you have any questions and problems in Emperor-OS, please e-mail us at:
 info.emperor.os@gmail.com
@@ -20,8 +20,8 @@ It comes with many tools for both programming and desktop users. In addition, it
  
 <img src="https://github.com/hosseinseilani/emperor-os/blob/master/screenshots/xfce%20desktop.PNG">
  
-## 45GB : Hard disk size recommended for a full setup. 
-## 2GB: RAM minimum, but 4 GB or more recommended.
+* List 45GB : Hard disk size recommended for a full setup. 
+* List 2GB: RAM minimum, but 4 GB or more recommended.
 ## 1GB: VGA Card : nVidia, ATI, Intel
 ## 64Bit: Processor: Any Intel, AMD or VIA x86_64 processor
 
