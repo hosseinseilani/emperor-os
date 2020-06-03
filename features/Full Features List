@@ -1,0 +1,763 @@
+1) Quick panel
+
+Emperor-OS includes quick panel with many useful commands for most users. This panel can help manage your system. By default. The icon location of panel is on the desktop and taskbar. Also you can run it by this command :
+
+sudo python /usr/bin/EmperorPanel/Emperor-panel.py
+
+or
+
+sudo python2.7 /usr/bin/EmperorPanel/Emperor-panel.py
+
+2) Use quick run app
+
+Emperor-OS includes 3 application launcher.One of them is Ulauncher. Type in Ulauncher, an application name without worrying about spelling. It also remembers your previous choices and automatically selects the best option for you. Browse files and directories with ease. Also Emperor-OS includes Ulauncher and Rofi apps. While logged into the desktop.
+
+press shift + space key combination to open fast launcher.
+
+Ulauncher
+
+Open rofi app in menu application to quick start applications.
+
+rofi can act as an application launcher, window switcher, ssh launcher and
+dmenu replacement.
+
+Includes features:
+* Full (configurable) keyboard navigation
+* Type to filter
+* Tokenized: Type any word in any order to filter
+* Case insensitive
+* UTF-8 enabled
+* UTF-8 aware string collating
+* Intl. keyboard support (`e -> è)
+* Pango font rendering
+* RTL language support
+* Window Switcher
+* I3 support (requires i3-wm to be installed)
+* EWMH compatible WM
+* Run dialog
+* Desktop File Run dialog
+* SSH launcher
+* History based ordering based on use. (Optional)
+* Levenshtein distance ordering of matches. (Optional)
+* Drop in dmenu replacement (with many added improvements).
+* Can be easily extended using scripts.
+
+Rofi window
+
+Press Alt+F2' key combination to open Run command box
+
+Run app ( alt+f2)
+3) Support many of languages
+4) Use Ubuntu repositories and source list.
+
+You can see it in /etc/apt/sources.list
+5) Disabled all logger and log management tools.
+
+Emperor does not share any info to anybody and anywhere. All logs and log manager services and log management tools for better performance had been removed.
+By default the apport, rsyslog, syslog had been removed.
+6) Themes
+
+Emperor includes more than 270 themes. You can see them in the following path :
+/usr/share/theme
+7) Icons
+
+Emperor includes more than 40 icons group. You can see them in the following path :
+/usr/share/icons
+8) Fonts
+
+There is a set of serif, sans-serif , monospaced and collection of font families about 270 fonts in Emperor-OS linux. You can see the list of installed fonts in this path :
+
+/usr/share/fonts/
+9)Xfwm4 themes
+
+This package contains xfwm4 which is the window manager for Xfce4. It is designed to run with the rest of XFCE4 but makes a capable window manager for GNOME or KDE. Install xfwm4 if you want a small, resource saving window manager which complies to the standards defined at http://www.freedesktop.org/.Emperor includes many window manager theme which are searched in the following directories:
+/usr/share/xfwm4/
+10) Built-in utilities and System administration
+
+The Emperor-OS includes many administrative, system management tool, built-in utilities :
+Settings tools: 85 tools
+Accessories and Utility tools: 33 tools
+System tools: 75tools
+11) packages:
+You can see all packages (4338 pre-installed Packages) as pdf file in the following link :
+List of all packages
+12) Emperor includes many GUI tools to install, update and remove packages:
+
+Synaptic is a graphical package management tool based on GTK+ and APT. Synaptic enables you to install, upgrade and remove software packages in
+a user friendly way.
+
+Besides these basic functions the following features are provided :
+* Search and filter the list of available packages
+* Perform smart system upgrades
+* Fix broken package dependencies
+* Edit the list of used repositories (sources.list)
+* Download the latest changelog of a package
+* Configure packages through the debconf system
+* Browse all available documentation related to a package (www is required)
+
+Synaptic
+
+gdebi
+
+gdebi lets you install local deb packages resolving and installing its dependencies. apt does the same, but only for remote (http, ftp )located packages .The package is also scanned via lintian before the install and it's possible to inspect the control and data members of the packages . This package contains the graphical user interface .
+
+Software-properties-gtk
+
+This software provides an abstraction of the used apt repositories. It allows you to easily manage your distribution and independent software Vendor software sources.This package contains a GTK+ based graphical interface.
+
+ 
+
+software-properties-kde
+
+This software provides an abstraction of the used apt repositories. It allows you to easily manage your distribution and independent software Vendor software sources.This package contains a Qt based graphical interface.
+
+
+
+discover
+
+Discover is a hardware identification system based on the libdiscover2 library. Discover provides a flexible interface that programs can use to report a wide range of information about the hardware that is
+installed on a Linux system. In addition to reporting information, Discover includes support for doing hardware detection at boot time.
+
+ 
+13) GUI update kernel
+
+Emperor use Ubuntu Kernel Update Utility (Ukuu) which is a tool for installing the latest mainline Linux kernel on Ubuntu-based distributions.
+ukuu-gtk
+14)GUI Hardware information
+
+Emperor use tools to find your hardware information :
+
+sudo kinfocenter : The kinfocenter provides you with a centralized and convenient overview of your system and desktop environment.
+info : The Info file format is an easily-parsable representation for online documents. This program allows you to view Info documents, like the ones stored in /usr/share/info.
+hardinfo :HardInfo is a small application that displays information about your hardware and operating system. Currently it knows about PCI, ISA PnP, USB, IDE, SCSI, Serial and parallel port devices.
+15)User account
+
+It is impossible to you that have a new user account with full features like default user of Emperor. Because, by default all configure files have copied from ~/.config to /etc/skel folder to have same Emperor user. If you want a new user account with empty config, delete the content of skel folder in /etc/skel. By using the Gnome System Tools which is a set of tools aimed to create easy user accounts and User Account Management. The User Manager allows you to view, modify, add, and delete local users and groups.
+
+ 
+16)Emperor includes the last Linux kernel 5.6 stable. Also by default, it includes Ubuntu 18.04.4 kernel, which is Linux kernel 5.3
+17) collection of bootloaders (UEFI bootloader)(DOS FAT and NTFS bootloader)(Bootloader for Linux/i386 using MS-DOS floppies )
+
+Emperor-OS includes syslinux which is a suite of bootloaders, currently supporting DOS FAT and NTFS filesystems (SYSLINUX), Linux ext2/ext3/ext4, BTRFS, and XFS filesystems (EXTLINUX), PXE network boots (PXELINUX), or ISO 9660 CD-ROMs (ISOLINUX).
+18) Five Desktops selective
+
+There five desktop in ISO image :
+(LXDE-OPENBOX-Mate-KDE plasma-Budgie-XFCE)
+which the XFCE is default desktop.you can change desktop in login window.
+
+ Emperor-OS also includes light-locker is a simple screen locker that aims to have simple, sane, secure defaults and be well integrated with the desktop while not carrying any desktop-specific dependencies.
+19) Automatic enabling of most scaner drivers :
+
+Simple Scan is an easy-to-use application, designed to let users connect their scanner and quickly have the image/document in an appropriate format. pre-installed xsane tools can be run as a stand-alone program or through the GIMP image manipulation program. In stand-alone mode, xsane can save an image to a file in a variety of image formats, serve as a frontend to a fax program, or send an image to a printer.
+20)Automatic enabling of most camera drivers.
+
+GTKam is a graphical application based on GTK+ that allows you to transfer pictures and movies from a digital camera.
+21)Automatic enabling of most printer drivers.
+
+The Common UNIX Printing System (or CUPS(tm)) is a printing system and general replacement for lpd and the like. It supports the Internet Printing Protocol (IPP), and includes its own filtering driver model for
+handling various document types.
+22)Automatic enabling of most android devices.
+
+KDE Connect — Aims to communicate all your devices.The kdeconnect tool is for your smartphones and similar devices. At the moment it only supports Android based devices.
+23)Automatic enabling of most bluetooth devices.
+
+Emperor-OS includes tools and system daemons for using Bluetooth devices.
+
+BlueDevil : BlueDevil is a set of components which integrate Bluetooth in KDE.
+
+BlueZ :This package contains tools and system daemons for using Bluetooth devices.
+
+bluez-cups: This package contains a driver to let CUPS print to Bluetooth-connected printers.
+
+Blueman: it is a GTK+ bluetooth management utility for GNOME using bluez D-Bus backend.
+24)Emperor includes 3 Browser: Firefox, brave browser, Konqueror
+
+Enhanced security features including protection from online identity theft, And integrated search let you get the most out of the web.
+
+Firefox delivers safe, easy web browsing. A familiar user interface,Extensible browser from Mozilla based on Gecko with fast rendering.
+
+Brave browser: Browse faster by blocking ads and trackers that violate your privacy and cost you time and money.Web browser that blocks ads and trackers by default.
+
+Konqueror :It is the KDE web browser and advanced file manager.Web browser based on Qt toolkit and Qt WebEngine (or KHTML layout engine), part of kdebase.
+25)Video Player : parole player
+
+Parole is a media player for the XFCE desktop environment, written using the GStreamer framework. Parole features playback of local media files, including video with subtitles Support, DVD/CD and live streams; it is also extensible via plugins.
+26) Webcam application:
+
+cheese tools, It supports image and video capture. Makes it easy to take photos and videos of you, your friends, pets or whatever you want. Allows you to apply fancy visual effects, fine-control image
+settings and includes features such as Multi-Burst mode, Countdown timer for photos. Cheese — Take photos and videos with your webcam, with fun graphical effects.
+27)Office suite: WPS office
+
+WPS Office : WPS Office including Writer, Presentation and Spreadsheets, is a powerful office suite, which is able to process word file, produce wonderful slides, and analyze data as well. It is deeply compatible with all of the latest Microsoft Office file formats. It can easily open and read the documents created with Microsoft Office.
+
+Kexi: Visual database applications creator tool by KDE, designed to fill the gap between spreadsheets and database solutions requiring more sophisticated development.
+28)Terminal :
+
+Emperor includes 5 terminal as:  XFCE4 Terminal ,mate-terminal, QTerminal, xterm , lxde terminal
+29)Emperor Automatic enabling of most hardware recognition.
+
+30)Manage Event sounds: volti tool and volume control
+Volti :A GTK application for controlling audio volume from system tray with an internal mixer and support for multimedia keys that uses only ALSA.
+
+PulseAudio: previously known as Polypaudio, is a sound server for POSIX and WIN32 systems. It is a drop in replacement for the ESD sound server with much better latency, mixing/re-sampling quality and overall architecture.
+31)lame : create mp3 audio files
+
+LAME is a program which can be used to create compressed audio files. LAME (recursive acronym for "LAME Ain't an MP3 Encoder") is a research project for learning about and improving MP3 encoding technology. LAME includes an MP3 encoding library, a simple frontend application, And other tools for sound analysis, as well as convenience tools.
+32)Hibernation is disabled by default
+33)Sleep is disabled by default
+34)Hybrid-sleep is disabled by default
+35)suspend is disabled by default
+
+you can use systemctl command to enable them.
+36)close lid of door by default is disabled.
+37)Many Codecs in Emperor has been installed.
+
+VP8 and VP9 video codec
+
+FFmpeg :It is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created. It supports the most obscure ancient formats up to the
+cutting edge.
+
+Audacious : It is a fork of beep-media-player which supports Winamp skins
+and many codecs.
+
+In the default install, the following codecs are supported:
+
+* MP3
+* Ogg Vorbis / Theora
+* AAC and AAC+
+* FLAC
+* ALAC
+* Windows Media (WMA)
+* WAVE
+38)The Emperor-conky is always on top-right of desktop is running.
+
+conky a system monitor software for linux system. Emperor-Conky is able to monitor many system variables including CPU, memory, swap, disk space, temperature and so on.
+39)The Emperor-OS has been customized and tweaked.
+40)Device mounter: the best tool for auto mounting the usb drive.
+
+These are XFCE mount plugin and thunar volume setting tools which enables automatic management of removable drives and media.
+
+sudo thunar-volman-settings
+
+41)Graphics tools: 
+
+Managing your digital pictures, organize, editing, enhancing and viewing them by many graphics tools.
+42)Docks: Cairo Docky
+
+Cairo-dock includes a family-likeness with OS X dock, but with more options. It uses Cairo to render nice graphics, and Glitz to use hardware acceleration. It's fully configurable and can be a taskbar too. You can easily plug applets into it.
+43) many Xorg and X11 utilities
+
+This metapackage provides the components for a standalone workstation running the X Window System. It provides the X libraries, an X server, a set of fonts, and a group of basic X clients and utilities.
+
+An X client is a program that interfaces with an X server (almost always via the X libraries), and thus with some input and output hardware like a graphics card, monitor, keyboard, and pointing device (such as a mouse).
+
+This package provides a miscellaneous assortment of X Server utilities that ship with the X Window System, including:
+- iceauth, a tool for manipulating ICE protocol authorization records;
+- rgb;
+- sessreg, a simple program for managing utmp/wtmp entries;
+- xcmsdb, a device color characteristic utility for the X Color Management System;
+- xgamma, a tool for querying and setting a monitor's gamma correction;
+- xhost, a very dangerous program that you should never use;
+- xmodmap, a utility for modifying keymaps and pointer button mappings in X;
+- xrandr, a command-line interface to the RandR extension;
+- xrdb, a tool to manage the X server resource database;
+- xrefresh, a tool that forces a redraw of the X screen;
+- xset, a tool for setting miscellaneous X server parameters;
+- xsetmode and xsetpointer, tools for handling X Input devices;
+- xsetroot, a tool for tailoring the appearance of the root window;
+- xstdcmap, a utility to selectively define standard colormap properties;
+- xvidtune, a tool for customizing X server modelines for your monitor.
+44) X applications :
+
+This package provides a miscellaneous assortment of X applications
+that ship with the X Window System, including:
+- atobm, bitmap, and bmtoa, tools for manipulating bitmap images;
+- ico, a demo program animating polyhedrons;
+- oclock and xclock, graphical clocks;
+- rendercheck, a program to test render extension implementations;
+- transset, a tool to set opacity property on a window;
+- xbiff, a tool which tells you when you have new email;
+- xcalc, a scientific calculator desktop accessory;
+- xclipboard, a tool to manage cut-and-pasted text selections;
+- xconsole, which monitors system console messages;
+- xcursorgen, a tool for creating X cursor files from PNGs;
+- xditview, a viewer for ditroff output;
+- xedit, a simple text editor for X;
+- xeyes, a demo program in which a pair of eyes track the pointer;
+- xgc, a graphics demo;
+- xload, a monitor for the system load average;
+- xlogo, a demo program that displays the X logo;
+- xmag, which magnifies parts of the X screen;
+- xman, a manual page browser;
+- xmore, a text pager;
+- xwd, a utility for taking window dumps ("screenshots") of the X session;
+- xwud, a viewer for window dumps created by xwd;
+- Xmark, x11perf, and x11perfcomp, tools for benchmarking graphical
+operations under the X Window System;
+45)Network manager:
+
+Network Manager is a system network service that manages your network devices and connections, attempting to keep active network connectivity when available. It manages Ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE devices, and provides VPN integration with a variety of different VPN
+Services.
+46) colorful terminal and special TTY (Awesome system info)
+
+press ctrl +Alt+F1 or F2 to F6 shortcut keys to open console mode. In this terminal display the information of Emperor-OS what operating system or Linux distro you are using including theme, icons, hardware configure and more. This command shows info about your system next to an image, your operating system logo and other info.
+
+To switch back to Desktop mode, use the Ctrl-Alt-F7 shortcut keys.
+47) privacy cleaner
+
+BleachBit : Frees disk space and guards your privacy; frees cache, deletes cookies, clears Internet history, shreds temporary files, deletes logs, and discards junk you didn't know was there.
+
+Sweeper : System cleaning utility for KDE. Sweeper can quickly remove temporary information, such as web page cookies, browser history, or the list of recently-opened documents. It helps provide additional privacy on a system shared between multiple users.
+48)Support many programming's tools:
+
+Emperor include 270 special tools: Powerful editors and IDEs readily available: such as: Atom, python, pycharm, Jupiter ,wing ide,erics, geany, mousepad, Support for many languages, including: Go, Rust, PHP, Node.js, Ruby, c, c++, java,js,html,css
+49) User and Password :
+
+On live system, username login as user, username password = user
+For root access, password = user
+50) Enabled cups-pdf
+
+CUPS-PDF provides a PDF Writer backend to CUPS. This can be used as a virtual printer in a paperless network or to perform testing on CUPS. Documents are written to a configurable directory (by default to ~/PDF) or can be further manipulated by a post-processing command.
+51) Enabled xscreensaver on desktop
+
+XScreenSaver is a modular screen saver and locker for X11, containing more than 200 screen savers.
+52) mange services and startup with stacer tool
+
+stacer: Linux System Optimizer and Monitoring
+53) installed cups-printer
+
+The Common UNIX Printing System (or CUPS(tm)) is a printing system and general replacement for lpd and the like. It supports the Internet Printing Protocol (IPP), and has its own filtering driver model for
+Handling various document types. Open browser and type localhost:631 to display cups-printer
+54)GUI tool for import media from any camera with Gtkam and gphoto2 and gphotofs tools
+55) pre-config ntfs-config
+
+This program allow you to easily configure all of your NTFS devices to allow write support via a friendly gui. For that use, it will configure them to use the open source ntfs-3g driver. You'll also be able to easily disable this feature.
+56) install ntfs-3G
+
+NTFS-3G uses FUSE (Filesystem in Userspace) to provide support for the NTFS filesystem used by Microsoft Windows.
+57)Synaptics input driver for Synaptics
+
+This package provides an input driver for the X.Org X server to enable advanced features of the Synaptics Touchpad including:
+
+* Movement with adjustable, non-linear acceleration and speed
+* Button events through short touching of the touchpad
+* Double-Button events through double short touching of the touchpad
+* Dragging through short touching and holding down the finger on the touchpad
+* Middle and right button events on the upper and lower corner of the touchpad
+* Vertical scrolling (button four and five events) through moving the finger
+on the right side of the touchpad
+* The up/down button sends button four/five events
+* Horizontal scrolling (button six and seven events) through moving the finger
+on the lower side of the touchpad
+* The multi-buttons send button four/five events, and six/seven events for
+horizontal scrolling
+* Adjustable finger detection
+* Multifinger taps: two finger for middle button and three finger for right
+button events. (Needs hardware support. Not all models implement this
+feature.)
+* Run-time configuration using shared memory. This means you can change
+parameter settings without restarting the X server (see synclient(1)).
+* It also provides a daemon to disable touchpad while typing at the keyboard
+and thus avoid unwanted mouse movements (see syndaemon(1)).
+58)installed touch pad driver indicator
+59)gstreamer faad mp4 codec
+
+GStreamer is a streaming media framework, based on graphs of filters which operate on media data. Applications using this library can do anything from real-time sound processing to playing videos, and just about anything else media-related. Its plugin-based architecture means that new data types or processing capabilities can be added simply by installing new plug-ins.
+60) installed font-manger to manage all installed fonts.
+
+KFontview : KDE application to view and install different types of fonts.
+
+MATE Font Viewer: Font viewer for MATE.
+61) Privilege Access
+
+Both the su and sudo commands are installed in Emperor which you to run commands as another user.
+62) sudoers privileges
+
+The policy has been determines for user's sudo privileges In the sudoers file in the path : /etc/sudoers.
+63) systemd: system and service manager
+
+Emperor-OS Linux uses systemd which is a system and service manager for Linux.you can control systemd by systemctl commnd.systemd is a system and service manager for Linux. It provides aggressive
+parallelization capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, keeps track of processes using Linux control groups, maintains mount and auto mount points and implements an
+elaborate transactional dependency-based service control logic.
+64)Advanced Linux Sound Architecture
+
+Emperor-OS includes ALSA sound card drivers in the kernel.
+
+ncluded tools:
+- alsactl: advanced controls for ALSA sound drivers
+- alsaloop: create loopbacks between PCM capture and playback devices
+- alsamixer: curses mixer
+- alsaucm: alsa use case manager
+- amixer: command line mixer
+- amidi: read from and write to ALSA RawMIDI ports
+- aplay, arecord: command line playback and recording
+- aplaymidi, arecordmidi: command line MIDI playback and recording
+- aconnect, aseqnet, aseqdump: command line MIDI sequencer control
+- iecset: set or dump IEC958 status bits
+- speaker-test: speaker test tone generator
+
+ALSA is the Advanced Linux Sound Architecture.
+65)Setting up a firewall
+
+Ufw is program for managing a netfilter firewall is remove by defualt.
+
+The Uncomplicated FireWall is a front-end for iptables, to make managing a Netfilter firewall easier. It provides a command line interface with syntax similar to OpenBSD's Packet Filter. It is particularly well-suited as a
+host-based firewall.
+66)Compressed files
+
+Tar is one of the most commonly used archiving tools that has been installed. Also engrama tools which is the official archive manager,and a graphical front-end to archiving utilities such as tar and zip. It is a fork of File Roller.
+
+Engrampa is an archive manager for the MATE environment. It allows you to:
+
+* Create and modify archives.
+* View the content of an archive.
+* View a file contained in an archive.
+* Extract files from the archive.
+
+Engrampa supports the following formats:
+* Tar (.tar) archives, including those compressed with
+gzip (.tar.gz, .tgz), bzip (.tar.bz, .tbz), bzip2 (.tar.bz2, .tbz2),
+compress (.tar.Z, .taz), lzip (.tar.lz, .tlz), lzop (.tar.lzo, .tzo),
+lzma (.tar.lzma) and xz (.tar.xz)
+* Zip archives (.zip)
+* Jar archives (.jar, .ear, .war)
+* 7z archives (.7z)
+* iso9660 CD images (.iso)
+* Lha archives (.lzh)
+* Single files compressed with gzip (.gz), bzip (.bz), bzip2 (.bz2),
+compress (.Z), lzip (.lz), lzop (.lzo), lzma (.lzma) and xz (.xz)
+
+Engrampa doesn't perform archive operations by itself, but relies on
+standard tools for this.
+
+p7zip is the Unix command-line port of 7-Zip, a file archiver that
+handles the 7z format which features very high compression ratios.
+
+List of supported formats:
+- Packing / unpacking: 7z, ZIP, GZIP, BZIP2, XZ and TAR
+- Unpacking only: APM, ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT,
+HFS, ISO, LZH, LZMA, LZMA2, MBR, MSI, MSLZ, NSIS, NTFS, RAR (only
+if non-free p7zip-rar package is installed), RPM, SquashFS, UDF,
+VHD, WIM, XAR and Z.
+
+gzip: This package provides the standard GNU file compression utilities
+
+bzip2 is a freely available, patent free, high-quality data compressor.
+It typically compresses files to within 10% to 15% of the best available
+techniques, whilst being around twice as fast at compression and six
+Times faster at decompression.
+67) customized GRUB boot menu
+68)Plymouth
+
+Emperor Linux includes a graphical boot process with native resolution of the display that provides a graphical boot animation while the boot process. In addition you can install other themes. display All currently installed themes or change them by using the following command:
+
+$sudo update-alternatives - -config default.plymouth
+
+As result in terminal window:
+
+There are 2 choices for the alternative default.plymouth (providing /usr/share/plymouth/themes/default.plymouth).
+
+Selection Path Priority Status
+------------------------------------------------------------
+0 /usr/share/plymouth/themes/xubuntu-logo/xubuntu-logo.plymouth 150 auto mode
+* 1 /usr/share/plymouth/themes/Emperor-plymouth/Emperor-plymouth.plymouth 100 manual mode
+2 /usr/share/plymouth/themes/xubuntu-logo/xubuntu-logo.plymouth 150 manual mode
+
+Press <enter> to keep the current choice[*], or type selection number:
+69)Swappiness
+
+The value of swappiness sysctl parameter represents the kernel's preference of swap space is 50. Swappiness can have a value between 0 and 100, in the Emperor-OS the default value is 50.A low value causes the kernel to avoid swapping, a higher value causes the kernel to try to use swap space.
+
+To check the current swappiness value type the following command:
+
+$ sysctl vm.swappiness
+50
+
+to temporarily set the swappiness value:
+
+sudo sysctl -w vm.swappiness=10  
+
+To set the swappiness value permanently:
+
+sudo edit plume /etc/sysctl.d/99-swappiness.conf
+
+and the add this line with your custome value.
+
+vm.swappiness=50
+
+70)hard-drive temperature tools
+
+hddtemp is a utility that gives the hard-drive temperature via S.M.A.R.T. The hddtemp program monitors and reports the temperature of PATA, SATA or SCSI hard drives by reading Self-Monitoring Analysis and Reporting Technology (S.M.A.R.T.) information on drives that support this feature.
+71)Download utilities
+
+Emperor-OS includes wget, aria2c,curl console utilities and xdm GUI download manager which are free software package for retrieving files using HTTP, HTTPS, FTP and FTPS
+
+aria2 : Lightweight download utility that supports HTTP/S, FTP, SFTP, BitTorrent and Metalink. It can run as a daemon controlled via a built-in JSON-RPC or XML-RPC interface.
+
+Wget : A network utility to retrieve files from the Web. Supports HTTP and FTP.
+
+cURL : An URL retrieval utility and library. Supports HTTP, FTP and SFTP.
+
+Xtreme Download Manager : Powerful tool to increase download speed up-to 500%. Supports HTTP and FTP. Video grabber works in a general way and is not limited to certain websites.
+72) Node Packaged Modules
+
+npm: is the official package manager for node.js. It can be installed with the npm package. Any package can be installed using:
+
+$ npm install packageName  
+
+Updating packages :
+
+$ npm update packageName  
+
+o remove a package installed with the -g switch :
+
+# npm -g uninstall packageName  
+
+73)pip
+
+The PyPA tool for installing Python packages.pip is the Python package installer. It integrates with virtualenv, doesn't do partial installs, can save package state for replaying, can install from
+non-egg sources, and can install from version control repositories.
+
+Install a package from PyPI:
+
+$ pip install SomePackage
+
+74)cairo-docky
+
+Emperor-OS use the Cairo-Dock which is a pretty, fast and customizable desktop with its own theme.
+75)Openvpn proxy tool
+
+Emperor-OS use the openvpn package, which provides both server and client mode and suitable for private and small business use.OpenVPN is an application to securely tunnel IP networks over a
+single UDP or TCP port. It can be used to access remote sites, make secure point-to-point connections, enhance wireless security, etc.
+76)Web servers
+
+Apache HTTP Server has been installed. A high performance Unix-based HTTP server.The Apache HTTP Server Project's goal is to build a secure, efficient and
+extensible HTTP server as standards-compliant open source software. The result has long been the number one web server on the Internet.
+77)FTP clients and FTP servers(ssh)
+
+ftp : Simple ftp client provided by GNU Inetutils
+
+SSH : SFTP is a network protocol that provides file access, file transfer, and file management over any reliable data stream.
+78)Instant messaging clients
+
+Pidgin: Multi-protocol instant messaging client with audio support that uses libpurple and supports all its protocols (Bonjour, Gadu-Gadu, Groupwise, ICQ, IRC, SIMPLE, XMPP, Zephyr).Pidgin is a graphical, modular instant messaging client capable of using multiple networks at once. Currently supported are:
+AIM/ICQ, IRC, Jabber/XMPP/Google Talk, Napster, Zephyr, Gadu-Gadu,
+Bonjour, Groupwise, Sametime, and SIMPLE
+79)Graphical image viewers
+
+Eye of MATE : Simple graphics viewer for the MATE desktop.
+
+Ristretto : Fast and lightweight image viewer for the XFCE desktop environment.
+
+GIMP : Image editing suite in the vein of proprietary editors such as Adobe Photoshop. GIMP (GNU Image Manipulation Program) has been started in the mid-1990s and has acquired a large number of plugins and additional tools.
+
+darktable : Photography workflow and RAW development application.
+
+Inkscape : Vector graphics editor, with capabilities similar to Illustrator, CorelDraw, or Xara X, using the SVG (Scalable Vector Graphics) file format. Inkscape supports many advanced SVG features (markers, clones, alpha blending, etc.) and great care is taken in designing a streamlined interface. It is very easy to edit nodes, perform complex path operations, trace bitmaps and much more. It's developers also aim to maintain a thriving user and developer community by using open, community-oriented development.
+
+Krita : Digital painting and illustration software includes based on the KDE platform.
+80) Color Selection
+
+Choose colors from the palette or the screen. Run with mate-color-select.
+81)File manager with full-screen user interface
+
+    Caja : The file manager for the MATE desktop.
+
+    Deepin File Manager : File manager developed for Deepin.
+
+    Dolphin : File manager includes in the KDE desktop.
+
+    Konqueror : File manager and web browser for the KDE desktop.
+
+    PCManFM : Very fast and lightweight file manager which can also optionally manage the desktop icons and background.
+
+    Thunar : File manager that can be run as a daemon with excellent start up and directory load times.
+
+82)utilities for file searching based on filename, file path or metadata. For full-text searching
+
+    Catfish — Versatile file searching tool by Xfce, can be powered by find, locate and Zeitgeist.
+    KFind — Search tool for KDE to find files by name, type or content. Has internal search and supports locate.
+    MATE Search Tool — MATE utility to search for files.
+
+83) version control
+
+One of the most popular version control systems for software is Git
+
+Git is popular version control system designed to handle very large projects with speed and efficiency; it is used for many high profile open source projects, most notably the Linux kernel.
+
+$ git --version
+
+84)Build automation and compilers
+
+CMake : Family of tools designed to build, test and package software.CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice. CMake is quite sophisticated: it is possible to support complex environments requiring system configuration, pre-processor generation, code generation, and template
+instantiation.
+
+The Free Pascal Compiler is an Object Pascal compiler supporting both Delphi and Turbo Pascal.
+
+This is the GNU C compiler, a fairly portable optimizing compiler for C.
+
+This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.
+85) many Integrated development environments
+
+Java IDEs
+
+Python IDEs
+
+Educational IDEs
+86)GUI builders
+
+FLUID : FLTK GUI designer.The Fast Light Toolkit (FLTK) is a cross-platform graphical user interface
+toolkit originally based on libForms.
+
+Glade : Create or open user interface designs for GTK applications.Glade is a RAD tool to enable quick and easy development of user interfaces for the GTK+ toolkit.
+
+Qt Designer : Tool for designing and building graphical user interfaces (GUIs) with Qt Widgets.
+87)Hex editors
+
+Bless : High quality, full featured hex editor.Bless is a binary (hex) editor, a program that enables you to edit files
+as a sequence of bytes written for the GNOME Desktop. Main features are:
+
+* Efficient editing of large data files.
+* Multilevel undo - redo operations.
+* Customizable data views.
+* Fast data rendering on screen.
+* Multiple Tabs.
+* Fast Find and Replace operations.
+* Conversion Table.
+* Advanced Copy/Paste capabilities.
+* Multi-threaded search and save operations.
+* Export to text and html (others with plugins).
+* Extensibility with Plugins.
+
+Okteta : KDE hex editor for viewing and editing the raw data of files.Okteta is a simple editor for the raw data of files. This type of program is also called hexadecimal editor or binary editor.
+88)UML modelers
+
+Umbrello : Unified Modelling Language (UML) diagram program based on KDE Technology.Umbrello UML Modeller is a Unified Modelling Language diagram editor for KDE.
+It can create diagrams of software and other systems in the industry-standard UML format, and can also generate code from UML diagrams in a variety of programming languages.
+
+Eclipse Modeling Tools : Tools and runtimes for building model-based applications.The Eclipse Platform is an open and extensible platform for anything and yet
+nothing in particular.
+89)API documentation browsers
+
+Devhelp : Devhelp's primary goal is to be an API documentation browser for GNOME.
+It is able to scan for .devhelp files generated automatically for packages that use gtk-doc-tools to generate documentation for libraries and programs.
+
+Qt Assistant : Qt is a cross-platform C++ application framework. Qt's primary feature
+is its rich set of widgets that provide standard GUI functionality.Tool for viewing on-line documentation in Qt help file format.
+90)On-screen keyboards
+
+Onboard : On-screen Keyboard with macros, easy layout creation and word suggestion.Onscreen keyboard useful for tablet PC users and for mobility impaired users.
+91)Disk usage display
+
+GNOME Disk Usage Analyzer : Disk Usage Analyzer is a graphical, menu-driven application to analyse
+disk usage in a GNOME environment. It can easily scan either the whole Filesystem tree, or a specific user-requested directory branch (local or remote).
+
+MATE Disk Usage Analyzer : Disk usage analyzing tool for MATE Desktop
+92)Task managers
+
+KSysGuard : System monitor for KDE to monitor running processes and system performance.
+
+LXTask : Lightweight task manager for LXDE.
+
+MATE System Monitor : System monitor for MATE.
+
+Task Manager : GTK2/GTK3 based process manager with basic system resource monitor for Xfce.
+93)System information viewers
+
+dmidecode : Dmidecode reports information about the system's hardware as described in the
+system BIOS according to the SMBIOS/DMI standard.
+
+neofetch : Neoftech is a cross-platform and easy-to-use system information command line script that collects your Linux system information and display it on the terminal next to an image, it could be your distributions logo or any ascii art of your choice.
+
+hardinfo : HardInfo is a small application that displays information about your hardware and operating system. Currently it knows about PCI, ISA PnP, USB, IDE, SCSI, Serial and parallel port devices.
+
+lshw :A small tool to provide detailed information on the hardware configuration of the machine. It can report exact memory configuration, firmware version, mainboard configuration, CPU version and speed, cache configuration, bus speed, etc. on DMI-capable x86 systems, on some PowerPC machines (PowerMac G4 is known to work) and AMD64.
+
+KDE Info Center : The kinfocenter provides you with a centralized and convenient overview of your system and desktop environment.
+94)Text editors
+
+nano : GNU nano is an easy-to-use text editor originally designed as a replacement for Pico, the ncurses-based editor from the non-free mailer package Pine
+
+KWrite :KWrite is a simple text editor built on the KDE Platform. It uses the Kate editor component, so it supports powerful features such as flexible syntax highlighting, automatic indentation, and numerous other text tools.
+
+Mousepad : Mousepad is a graphical text editor for XFCE based on Leafpad.
+
+Pluma : Pluma is a text editor which supports most standard editor features, extending this basic functionality with other features not usually found in simple text editors. Pluma is a graphical application which supports editing multiple text files in one window (known sometimes as tabs or MDI).
+
+TEA : TEA provides you with hundreds of functions. Want some tea?
+
+Visual Studio Code :Editor for building and debugging modern web and cloud applications.XEdit — Simple text editor for the X Window System.
+
+Emacs : GNU Emacs is the extensible self-documenting text editor. This is a metapackage that will always depend on the lates recommended Emacs release.
+
+vi : The original ex/vi text editor.
+
+Vim (Vi IMproved) :Vim is an almost compatible version of the UNIX editor Vi.
+95) Readers and viewers
+96)Note-taking software
+
+Gnote : Gnote is a desktop note-taking application which is simple and easy to use. It lets you organise your notes intelligently by allowing you to easily link ideas together with Wiki style interconnects.
+xfce-note: The notes tool provides you a simple text editor in a little window for the
+XFCE 4 desktop. Notes are especially useful for temporary stuff.
+97)Dictionary and thesaurus
+
+GoldenDict : Feature-rich dictionary lookup program.
+
+XFCE4 Dictionary : Search different kinds of dictionary services for words or phrases.
+98)Screen lockers
+
+xfce4-screensaver : A screen saver and locker that aims to have simple, sane, secure defaults and be well integrated with the XFCE desktop.
+99)Mathematics Calculator
+
+bc :GNU bc is an interactive algebraic language with arbitrary precision which
+follows the POSIX 1003.2 draft standard, with several extensions including
+multi-character variable names, an `else' statement and full Boolean
+expressions. GNU bc does not require the separate GNU dc program.
+
+calc : Arbitrary precision console calculator.
+
+MATE Calc : mate-calc is a powerful graphical calculator with financial, logical and scientific modes. It uses a multiple precision package to do its arithmetic to give a high degree of accuracy.
+
+SpeedCrunch : It's optimized for keyboard use and has advanced features: use of functions, use of variables, result history, and syntax highlighting. It also shows the result as you type.
+
+xcalc — Scientific calculator for X with algebraic and reverse polish notation modes.
+100) Scientific or technical computing and Statistics
+
+PSPP : Free SPSS implementation.GNU PSPP is a program for statistical analysis of sampled data. It is a free as in freedom replacement for the proprietary program SPSS, and appears very similar to it with a few exceptions.
+
+rstudio : RStudio is a set of integrated tools designed to help you be more productive with R. It includes a console, syntax-highlighting editor that supports direct code execution, and a variety of robust tools for plotting, viewing history, debugging and managing your workspace.
+101) ElectronicsDigital logic
+
+Logisim : Logisim is an educational tool for designing and simulating digital logic circuits
+
+glogic : gLogic is an educational graphical logic circuit simulator developed with Python and GTK+. This program simulates logic circuits ontaining basic components (e.g. NOT, AND, OR) and many advanced components like flip-flop.
+102)many Computer science Artificial intelligence
+103) Taskbars
+
+Cairo-Dock : Cairo-dock has a family-likeness with OS X dock, but with more options.Highly customizable dock and launcher application.
+
+LXPanel : LXPanel is a GUI application for the Lightweight X11 Desktop Environment .(LXDE).Lightweight X11 desktop panel and part of the LXDE desktop.
+
+MATE Panel : The MATE Panel is an essential part of the MATE Desktop, providing toolbar-like “panels” which can be attached to the sides of your desktop.
+
+Tint2 : Tint is a simple panel/taskbar intentionally made for openbox3, but should also work with other window managers.Simple panel/taskbar developed specifically for Openbox.
+
+XFCE Panel : This is the panel provided by the XFCE4 desktop project. If you want a multi-functional panel that can even handle plugins and the like, xfce4-panel might be worth a try.
+104) Desktop notifications
+
+update-notifier
+
+update kernel notifier
+105)power management tool
+
+TLP: it is an advanced power management tool for Linux. It comes with a default configuration already optimized for battery life. At the same time it is highly customizable to fulfil specific user requirements. TLP is a pure command line tool with automated background tasks, it does not contain a GUI.
+
+Power Devil : it allows you to define your all power settings.
+
+acpi : Modern computers support the Advanced Configuration and Power Interface (ACPI) to allow intelligent power management on your system and to query battery and configuration status.
+
+indicator-power: This indicator displays current power management information and gives the user a way to access power management preferences.
+
+mate-power-manager : MATE Power Manager is a session daemon for the MATE desktop that takes care of system or desktop events related to power, and triggers actions accordingly. Its philosophy is to completely hide these complex tasks and only show some settings important to the user.
+
+xfce4-power-manager : This power manager for the XFCE desktop enables laptop users to set up a power profile for two different modes "on battery power" and "on ac power" while still allowing desktop users to at least change the DPMS settings and CPU frequency using the settings dialogue..
