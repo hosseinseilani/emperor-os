@@ -1,4 +1,5 @@
 # Emperor-os
+[MIT](https://http://emperor-os.com/)
 
 Established in 2020, by Hossein Seilany who has focused on developing an All in One operating system for programming, developing and data science. The aim was to provide, design, develop and customize Emperor-OS to be free and useful for normal and professional users. If you have any questions and problems in Emperor-OS, please e-mail us at:
 info.emperor.os@gmail.com
@@ -25,9 +26,9 @@ It comes with many tools for both programming and desktop users. In addition, it
 ## 64Bit: Processor: Any Intel, AMD or VIA x86_64 processor
 
 # Are you looking for an all in one operating system?
-## 70 Packages: Installed Special Packages 
-## 120 Tools: Installed Utility 
-## 260 Modules: Installed Python2 and 3 Modules 
+### 70 Packages: Installed Special Packages 
+### 120 Tools: Installed Utility 
+### 260 Modules: Installed Python2 and 3 Modules 
 ## 600Fonts: Installed Fonts
 ## 5 Desktops: Desktop Manager Packages 
 ## 22Tools: Extra Development Tools 
