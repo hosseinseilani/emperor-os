@@ -15,7 +15,7 @@ Emperor-OS has over 200 apps and important tools which are all in one ISO for pr
 
 It comes with many tools for both programming and desktop users. In addition, it has a customized grub boot menu with two kernel release, Plymouth theme, customized login window with 5 selective desktop to login and default username and password. Also, it has quick Emperor Panel, quick run app menu to search your app, beautiful Cairo-dock and Conky theme, five pre-installed and pre-configured desktops (XFCE, LXDE, Open Box, KDE plasma, Mate). It has three browsers for the web, two groups of developing tools, fun games, many graphic tools and file managers and you can manage Emails, Rip CDs and watch video, play music, burn CDs and DVDs, manage and organize pictures. It also includes the WPS office which allows you to write letters, do spreadsheets, drawings and slide presentations; it has many settings and accessories. Everything you can do with other operating systems, you can do in emperor-OS.
 <img src="https://github.com/hosseinseilani/emperor-os/blob/master/screenshots/login%20window.PNG">
-
+---
 # Sample Desktop
  
 <img src="https://github.com/hosseinseilani/emperor-os/blob/master/screenshots/xfce%20desktop.PNG">
@@ -24,17 +24,17 @@ It comes with many tools for both programming and desktop users. In addition, it
 * 2GB: RAM minimum, but 4 GB or more recommended.
 * 1GB: VGA Card : nVidia, ATI, Intel
 * 64Bit: Processor: Any Intel, AMD or VIA x86_64 processor
-
+---
 # Are you looking for an all in one operating system?
 * 70 Packages: Installed Special Packages 
 * 120 Tools: Installed Utility 
-### 260 Modules: Installed Python2 and 3 Modules 
-## 600Fonts: Installed Fonts
-## 5 Desktops: Desktop Manager Packages 
-## 22Tools: Extra Development Tools 
-## 270 Themes: Installed Themes 
-## 40 Icons: Installed Icons
-## 40Games: Installed Games
-## 2533scanners: supported Scanners
-## 2500 Cameras: supported Cameras
-## 4338Packages: Overall Installed Packages 
+* 260 Modules: Installed Python2 and 3 Modules 
+* 600Fonts: Installed Fonts
+* 5 Desktops: Desktop Manager Packages 
+* 22Tools: Extra Development Tools 
+* 270 Themes: Installed Themes 
+* 40 Icons: Installed Icons
+* 40Games: Installed Games
+* 2533scanners: supported Scanners
+* 2500 Cameras: supported Cameras
+* 4338Packages: Overall Installed Packages 
