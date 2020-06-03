@@ -24,7 +24,9 @@ Different from other distro where one has a package manager that download and in
 Emperor-OS is a live distribution and also can be install on Hard disk, which means that the running environment is constructed in your system's memory when you boot it up. The ISO image is 'isohybrid' can be run on CD, flash drive, or hard drive used to construct this live file system. You can modify and customize the way your system boots, and resolve or work around many hardware issues by using cheat codes. Cheat codes are passed to the system by pressing TAB at the boot.
 
 # Permanent Aliases Commands:
+
 Linux users are always using one command over and over. We created many aliases by default for the most commonly used commands to save your time. Aliases are custom shortcuts used to display a widely used command.
+
 ---
 # Here you can see the default aliases defined for your user in emperor-os 18.04.
 * alias off='sudo poweroff -f'
