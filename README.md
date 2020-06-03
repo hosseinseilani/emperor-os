@@ -20,14 +20,14 @@ It comes with many tools for both programming and desktop users. In addition, it
  
 <img src="https://github.com/hosseinseilani/emperor-os/blob/master/screenshots/xfce%20desktop.PNG">
  
-* List 45GB : Hard disk size recommended for a full setup. 
-* List 2GB: RAM minimum, but 4 GB or more recommended.
-## 1GB: VGA Card : nVidia, ATI, Intel
-## 64Bit: Processor: Any Intel, AMD or VIA x86_64 processor
+* 45GB : Hard disk size recommended for a full setup. 
+* 2GB: RAM minimum, but 4 GB or more recommended.
+* 1GB: VGA Card : nVidia, ATI, Intel
+* 64Bit: Processor: Any Intel, AMD or VIA x86_64 processor
 
 # Are you looking for an all in one operating system?
-### 70 Packages: Installed Special Packages 
-### 120 Tools: Installed Utility 
+* 70 Packages: Installed Special Packages 
+* 120 Tools: Installed Utility 
 ### 260 Modules: Installed Python2 and 3 Modules 
 ## 600Fonts: Installed Fonts
 ## 5 Desktops: Desktop Manager Packages 
