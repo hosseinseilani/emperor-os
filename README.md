@@ -38,3 +38,5 @@ It comes with many tools for both programming and desktop users. In addition, it
 * 2600 scanners: supported Scanners
 * 2600 Cameras: supported Cameras
 * 5000 Packages: Overall Installed Packages 
+
+[site link](http://emperor-os.com/)
