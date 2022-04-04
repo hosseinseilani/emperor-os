@@ -40,3 +40,7 @@ It comes with many tools for both programming and desktop users. In addition, it
 * 5000 Packages: Overall Installed Packages 
 
 [site link](http://emperor-os.com/)
+
+# MD5 : cd119a0ff788480a7a4e33b59ed92611
+
+# sha256 : 9caa00fdd93053eb4e19a2f0b09c3c76cb578abf057c18531c920156b34d627a
