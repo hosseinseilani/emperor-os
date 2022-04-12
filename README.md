@@ -41,6 +41,6 @@ It comes with many tools for both programming and desktop users. In addition, it
 
 [site link](http://emperor-os.com/)
 
-# MD5 : cd119a0ff788480a7a4e33b59ed92611
+ MD5 : daa5e4fbde5c0adb5083df48b7663fbf
 
-# sha256 : 9caa00fdd93053eb4e19a2f0b09c3c76cb578abf057c18531c920156b34d627a
+ sha256 : 772f45b11e1aa6d2fd6890bfcb2edada9765b2c8da17547aba186430f3d3ea9e
