@@ -1,7 +1,7 @@
 # Emperor-os
 [site link](http://emperor-os.com/)
 
-# New released version 2.0 LTS  2022
+# New released version 2.5 LTS  2022-06-25
 
 Established in 2022, by Hossein Seilany, and it has focused on developing an All in One operating system for programming, developing and data science. The aim was to provide, design, develop and customize Emperor-OS to be free and useful for normal and professional users. If you have any questions and problems in Emperor-OS, please e-mail us at:
 info.emperor.os@gmail.com
@@ -29,7 +29,7 @@ It comes with many tools for both programming and desktop users. In addition, it
 * 500 Packages: Installed Special Packages 
 * 150 Tools: Installed Utility 
 * 350 Modules: Installed Python2 and 3 Modules 
-* 600 Fonts: Installed Fonts
+* 140 Fonts: Installed Fonts
 * 7 Desktops: Desktop Manager Packages 
 * 20 Tools: Extra Development Tools(compiler and debugger)
 * 40 Themes: Installed Themes 
@@ -41,6 +41,6 @@ It comes with many tools for both programming and desktop users. In addition, it
 
 [site link](http://emperor-os.com/)
 
- MD5 : daa5e4fbde5c0adb5083df48b7663fbf
+ MD5 : 0e504216dbf11b561b91c0443bcd53cc
 
- sha256 : 772f45b11e1aa6d2fd6890bfcb2edada9765b2c8da17547aba186430f3d3ea9e
+ sha256 : 8d1e4c585d8e87e85e139647213849ec77a47bb3e449c73e86fdd17ad075e9b0
