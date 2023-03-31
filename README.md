@@ -1,5 +1,5 @@
 # Emperor-os
-[site link](http://emperor-os.com/)
+[site link](http://emperor-os.ir/)
 
 # New released version 2.5 LTS  2022-06-25
 
