@@ -45,3 +45,14 @@ It comes with many tools for both programming and desktop users. In addition, it
  MD5 : 0e504216dbf11b561b91c0443bcd53cc
 
  sha256 : 8d1e4c585d8e87e85e139647213849ec77a47bb3e449c73e86fdd17ad075e9b0
+ 
+ 
+
+ # Host and Domain sponsored By:
+  
+<img src="https://github.com/hosseinseilani/predator-os/blob/main/logo_square.png">
+Providing Linux hosting services, selling SSL certificates, registering and transferring domains and hosting.
+ [site link](https://www.netafraz.com)
+ 
+
+ 
