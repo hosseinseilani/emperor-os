@@ -40,7 +40,7 @@ It comes with many tools for both programming and desktop users. In addition, it
 * 2600 Cameras: supported Cameras
 * 5000 Packages: Overall Installed Packages 
 
-# Improving performance and tuned kernel level and user levels:
+# Improving performance and tuned kernel and user spaces:
 1) In order to improve the performance of the CPU frequency range has been changed intel_pstate to acpi-cpufreq by default.
 2) The BIOS frequency limitation has been disabled by default in order to improve the performance of the CPU frequency range, 
 3)In order to improve the performance of the hard disk and boot time, the watchdog has been disabled by default.
