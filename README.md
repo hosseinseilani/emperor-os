@@ -7,7 +7,7 @@ Established in 2022, by Hossein Seilany, and it has focused on developing an All
 info.emperor.os@gmail.com
 telegram: @seilany
 
-<img src="https://github.com/hosseinseilani/emperor-os/blob/master/screenshots/11.jpg">
+<img src="https://github.com/hosseinseilani/emperor-os/blob/master/screenshots/emperor-os.jpg">
 
 # Best available programming softwares and tools
 
