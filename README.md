@@ -1,5 +1,5 @@
 # Emperor-os
-[site link](http://emperor-os.ir/)
+[Emperor-os.ir](http://emperor-os.ir/)
 
 # New released version 2.5 LTS  2022-06-25
 
@@ -40,7 +40,7 @@ It comes with many tools for both programming and desktop users. In addition, it
 * 2600 Cameras: supported Cameras
 * 5000 Packages: Overall Installed Packages 
 
-[site link](http://emperor-os.com/)
+[site link](http://emperor-os.ir/)
 
  MD5 : 0e504216dbf11b561b91c0443bcd53cc
 
