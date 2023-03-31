@@ -40,6 +40,23 @@ It comes with many tools for both programming and desktop users. In addition, it
 * 2600 Cameras: supported Cameras
 * 5000 Packages: Overall Installed Packages 
 
+# Improving performance and tuned kernel level and user levels:
+1) In order to improve the performance of the CPU frequency range has been changed intel_pstate to acpi-cpufreq by default.
+2) The BIOS frequency limitation has been disabled by default in order to improve the performance of the CPU frequency range, 
+3)In order to improve the performance of the hard disk and boot time, the watchdog has been disabled by default.
+4) Improving the performance of the hard disk by changing the I/O scheduler for SATA, HDD, and NVMe disks.
+5) Improved CPU performance by changing the default kernel scheduler to a Linux-zen kernel.
+6) Improving network and Internet performance by changing the Bottleneck Bandwidth and Round-trip propagation time (BBR).
+7) Improved RAM memory function by changing the randomize_va_space status.
+8) Improved virtual memory performance by replacing zswap instead of swap by default.
+9) The hardware threads (physical CPU) for each CPU core have been enabled.
+10) Improving the paralleling of tasks by allowing independent tasks (running threads) by sharing some processor resources.
+11) Changed power saving mode to performance mode by default, In order to improve the performance of the disk and network IO.
+12) All CPU governor frequency has switched in performance.
+13) Reducing kernel log-level reports to a low level in order to improve kernel performance and increase security and create silent boot mode.
+14) and also, improving TCP performance, increasing inode cache memory, disk cache, improving network and bandwidth parameters, etc.
+
+
 [site link](http://emperor-os.ir/)
 
  MD5 : 0e504216dbf11b561b91c0443bcd53cc
