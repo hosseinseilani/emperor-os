@@ -11,7 +11,7 @@ telegram: @seilany
 
 # Best available programming softwares and tools
 
-Emperor-OS has over 500 apps and 150 utility tools which are all in one ISO for programming and data science. It is a complete Linux operating system that is customized to run from CD, USB flash drive, hard drive or other Bootable Storage Medias. It comes in 64 bit ISO and has five desktops. It also supports several programming languages and developing tools. It is distributed as a Live ISO image and can also be installed in your computer. Emperor-OS Linux is a non-commercial, special purpose Linux distribution designed for beginner and power users who appreciate working with programming, developing, big data and data analysis tools.
+Emperor-OS is based on Ubuntu mini 20.04 LTS and it has over 500 apps and 150 utility tools which are all in one ISO for programming and data science. It is a complete Linux operating system that is customized to run from CD, USB flash drive, hard drive or other Bootable Storage Medias. It comes in 64 bit ISO and has five desktops. It also supports several programming languages and developing tools. It is distributed as a Live ISO image and can also be installed in your computer. Emperor-OS Linux is a non-commercial, special purpose Linux distribution designed for beginner and power users who appreciate working with programming, developing, big data and data analysis tools.
 <img src="https://github.com/hosseinseilani/emperor-os/blob/master/screenshots/menu1.JPG">
 
 # It is a special linux OS:
