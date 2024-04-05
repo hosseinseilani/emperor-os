@@ -57,13 +57,15 @@ It comes with many tools for both programming and desktop users. In addition, it
 14) and also, improving TCP performance, increasing inode cache memory, disk cache, improving network and bandwidth parameters, etc.
 
 
-[site link](http://emperor-os.ir/)
+[Download link](http://emperor-os.ir/)
 
- MD5 : 0e504216dbf11b561b91c0443bcd53cc
+ 
+# Donate inside Iran:
+https://zarinp.al/learninghive.ir
 
- sha256 : 8d1e4c585d8e87e85e139647213849ec77a47bb3e449c73e86fdd17ad075e9b0
- 
- 
+# Donate outside Iran:
+<img src="https://github.com/hosseinseilani/little-psycho/blob/main/ethereum.JPG">
+0xd15e9222ee44349DabFae6F61dD7382617e7A563
 
  # Host and Domain sponsored By:
   
